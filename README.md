@@ -10,20 +10,20 @@ it marks visited cells to avoid revisiting them. if it reaches a dead end, it ba
 When the exit is found, the program prints the path from the start to the exit.
 
 ## Symbols
-'S' stands for the starting point.  
-'E' stands for the exit.  
-'0' stands for open path.  
-'1' stands for wall.  
-'2' stands for visited cells.  
+- 'S' stands for the starting point.  
+- 'E' stands for the exit.  
+- '0' stands for open path.  
+- '1' stands for wall.  
+- '2' stands for visited cells.  
 
 ## Algorithm
 this program uses Recursion, Backtracking and Depth-First Search (DPS)
 
 ## Time and space complexity
 If we count R as the number of rows and C as the number of columns,  
-Time Complexity: O(R × C)  
-Space Complexity: O(R × C)  
+- Time Complexity: O(R × C)  
+- Space Complexity: O(R × C)  
 
 ## Possible future improvements
--Visualize the maze and the solution path.  
--Turn the maze solver into an interactive maze game.
+- Visualize the maze and the solution path.  
+- Turn the maze solver into an interactive maze game.
